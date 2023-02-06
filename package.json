@@ -1,0 +1,27 @@
+{
+  "name": "sam-router",
+  "version": "1.0.0",
+  "description": "aws sam alternative to run locally",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "sam-router": "index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hemanth Narravula",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "conf": "^10.2.0",
+    "fast-glob": "^3.2.12",
+    "h3": "^1.0.1",
+    "inquirer": "^9.1.4",
+    "shelljs": "^0.8.5",
+    "yaml": "^2.1.3"
+  }
+}
