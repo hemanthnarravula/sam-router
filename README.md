@@ -1,6 +1,8 @@
 # sam-router
 sam local alternative
 
+Clone the repo 
+
 ```sh
 cd sam-router
 npm install
